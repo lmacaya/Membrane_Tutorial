@@ -1,0 +1,44 @@
+\documentclass[10pt,A4paper,oneside]{article}
+\usepackage[text={6.79in}, top=0.8in,  left=0.8in, bottom=0.8in]{geometry}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {\Large Table of Contents}%
+}
+\usepackage{amsmath,multicol,amstext,amssymb}
+\usepackage{graphpap}
+\usepackage{enumerate}
+%times
+\renewcommand{\baselinestretch}{1.05}
+\renewcommand{\rmdefault}{ptm}
+
+\usepackage[numbers,sort&compress]{natbib}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\be}{\begin{enumerate}} 
+\newcommand{\ee}{\end{enumerate}} 
+\newcommand{\bd}{\begin{description}} 
+\newcommand{\ed}{\end{description}}
+\newcommand{\bt}{\begin{tabularx}}
+\newcommand{\et}{\end{tabularx}}
+\setlength{\parindent}{0cm}
+
+
+
+
+\begin{document}
+
+\begin{equation}
+u=\frac{c-c(H_2O)}{c(H\_2O)[L]}
+  \end{equation}
+
+
+\begin{equation}
+c=sqrt{\frac{1}{\kappa\rho}}
+  \end{equation}
+
+\end{document}
