@@ -1,3 +1,2 @@
-# Membrane_Tutorial
-
-Lipid Membrane Molecular Dynamics Tutorial Workshop 2017
+# Membrane Tutorial 
+Molecular Dynamics of Lipid Membranes  Workshop 2017
